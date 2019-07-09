@@ -16,3 +16,11 @@ sudo docker-compose start
   
 
 Snapshots should be taken everytime a new 'version' is created as well as every day or so. 
+
+
+If instance shuts down, the server can be started get simply using:
+
+cd /opt/redash
+sudo docker-compose start
+
+Then point browser to http://<Public DNS>/redash
