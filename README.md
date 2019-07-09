@@ -23,4 +23,5 @@ If instance shuts down, the server can be started get simply using:
 cd /opt/redash;
 sudo docker-compose start
 
-Then point browser to http://Public_DNS/redash
+Then point browser to http://Public_DNS/redash. Note that when pointing browser to this web, may take a minute or two to load
+initially since all the queries and tables are being loaded still.
